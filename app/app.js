@@ -176,11 +176,11 @@ app.get("/", (req, res) => {
 });
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.dreamhost.com",
+  host: "hostname",
   port: 465,
   auth: {
-      user: 'fcr@firstcapitalrestoration.com',
-      pass: 'FirstCap23!',
+      user: 'user',
+      pass: 'yourpassword',
   },
 });
 
@@ -192,8 +192,8 @@ app.post('/',
     }
 
     const mailData = {
-        from: "fcr@firstcapitalrestoration.com",
-        to: "halford@colite.com",
+        from: "fromemail",
+        to: "toemail",
         replyTo: email,
         subject: subject,
         text: "You have recieved a new contact form submission from " + name + ".\nReply-To: " + email + "\n\nMessage:\n " + message
