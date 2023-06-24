@@ -175,45 +175,6 @@ app.get("/", (req, res) => {
   getWebpage(req, res, "webpage", "none");
 });
 
-/*
-Webpage.getAll(id, (err, data1) => {
-    if (err)
-      res.status(500).send({
-        message:
-          err.message || "Some error occurred while retrieving webpages."
-      });
-    else {
-      
-      BoxItem.getAll(id, (err, data2) => {
-        if (err)
-          res.status(500).send({
-            message:
-              err.message || "Some error occurred while retrieving boxitems."
-          });
-        else {
-          GalleryImage.getAll(id, (err, data3) => {
-            if (err)
-              res.status(500).send({
-                message:
-                  err.message || "Some error occurred while retrieving galleryimages."
-              });
-            else {
-              res.render("webpage", {
-                results3: data3,
-                results2: data2, 
-                results1: data1,
-                success: false
-              });
-            }
-          });
-        };
-        
-      });      
-    }
-      
-  }); 
-*/
-
 const transporter = nodemailer.createTransport({
   host: "smtp.dreamhost.com",
   port: 465,
