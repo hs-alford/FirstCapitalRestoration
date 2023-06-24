@@ -1,0 +1,334 @@
+
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>First Capitol Restoration</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../public/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../../public/assets/css/noscript.css" /></noscript>
+		<style>
+			.banner .content h1, .banner .content p, .banner .content a {
+				color: white !important;
+			}
+	
+			.i-size-1 {
+				font-size:1.5rem;
+			}   
+		</style>
+	</head>
+
+	<body class="is-preload" >
+			<div id="wrapper" class="divided">
+				
+				<!-- ************** Banner ************** -->
+				<section class="banner onload-image-fade-in onload-content-fade-right invert style5  image-position-center orient-left content-align-center" style="padding:2em 3em">
+					<div class="content" >
+						<img src="../../public/images/<%= results1[0].bannerlogoimage %>" style="height:18em;width:18em;border-radius: 100%;" alt="">
+
+				
+						<p class="major"><%= results1[0].bannertext %></p>
+						<ul class="actions stacked">
+							<li><a href="#first" class="button primary large wide smooth-scroll-middle">Get In Touch</a></li>
+						</ul>
+					</div>
+					<div class="image">
+						<img src="../../public/images/<%= results1[0].bannerbackgroundimage %>" alt="">
+					</div>
+				</section>
+				<!-- ************** End Banner ************** -->
+
+					<!-- ************** Section One ************** -->
+					<section class="wrapper style1 align-center">
+						<div class="inner" style="width:75rem;">
+							<!-- Heading Area -->
+
+							<h2>
+								<!-- Title -->
+								<%= results1[0].sectionone_title %>
+								<!-- End Title -->
+							</h2>
+							<p>
+								<!-- Subtitle -->
+								<%= results1[0].sectionone_subtitle %>
+								<!-- End Subtitle -->
+							</p>
+
+							<!-- End Heading Area -->
+
+							<!-- Box Items Area -->
+                            
+							<div class="items style1 small onscroll-fade-in">
+
+                                <% var boxCount = 0 %>
+                                <% var icons = ["fas fa-pencil-ruler", "fas fa-ruler-combined", "far fa-handshake", "fas fa-hard-hat"] %>
+                                <% results2.forEach(function(r) { %>
+
+                                    <!-- Box 1 -->
+								<section>
+									<span class="icon style2 major">
+                                        <span class="fa-stack i-size-1">
+                                            <i class="fas fa-circle fa-stack-2x"></i>
+                                            <i class="<%= icons[boxCount] %> fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                    </span>		
+									<h3>
+										<!-- Heading -->
+										<%= r.title %>
+										<!-- End Heading -->
+									</h3>
+									<p>
+										<!-- Subheading -->
+										<%= r.subtitle %>
+										<!-- End Subheading -->
+									</p>
+								</section>
+								<!-- End Box 1 -->
+                        
+                                   <% boxCount++; %>
+                        
+                            <% }); %>
+								
+
+						
+								
+							</div>
+						</div>
+					</section>
+				<!-- ************** End Section One ************** -->
+
+				<!-- ************** Section Two ************** -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							
+							<h2>
+								<!-- Heading -->
+                                <%= results1[0].sectiontwo_title %>								<!-- End Heading -->
+							</h2>
+							
+							<p>
+								<!-- Subheading -->
+								<%= results1[0].sectiontwo_subtitle %>
+								<!-- End Subheading -->
+							</p>
+							
+							<ul class="actions stacked">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul>
+						</div>
+
+						<div class="image">
+
+							<!-- Image -->
+							<img src="../../public/images/<%= results1[0].sectiontwo_image %>" alt="" />
+
+						</div>
+					</section>
+				<!-- ************** End Section Two ************** -->
+
+				<!-- ************** Section Three ************** -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							
+							<h2>
+								<!-- Heading -->
+								<%= results1[0].sectionthree_title %>
+								<!-- End Heading -->
+							</h2>
+							
+							<p>
+								<!-- Subheading -->
+								<%= results1[0].sectionthree_subtitle %>
+								<!-- End Subheading -->
+							</p>
+							
+							<ul class="actions stacked">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+
+							<!-- Image -->
+							<img src="../../public/images/<%= results1[0].sectionthree_image %>" alt="" />
+
+						</div>
+					</section>
+				<!-- ************** End Section Three ************** -->
+
+				<!-- ************** Section Four ************** -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							
+							<h2>
+								<!-- Heading -->
+								<%= results1[0].sectionfour_title %>
+								<!-- End Heading -->
+							</h2>
+							
+							<p>
+								<!-- Subheading -->
+								<%= results1[0].sectionfour_subtitle %>
+								<!-- End Subheading -->
+							</p>
+							
+							<ul class="actions stacked">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+
+							<!-- Image -->
+							<img src="../../public/images/<%= results1[0].sectionfour_image %>" alt="" />
+
+						</div>
+					</section>
+				<!-- ************** End Section Four ************** -->
+
+				<!-- ************** Section Five ************** -->
+					<section class="wrapper style1 align-center">
+
+						<!-- Heading -->
+						<div class="inner">
+							<h2>
+								<!-- Title -->
+                                <%= results1[0].sectionfive_title %>
+								<!-- End Title -->
+							</h2>
+							
+							<p>
+								<!-- Subtitle -->
+								<%= results1[0].sectionfive_subtitle %>
+								<!-- End Subtitle -->
+							</p>					
+						</div>
+						<!-- End Heading -->
+
+						<!-- Slideshow Gallery -->
+							<div class="gallery style2 medium lightbox onscroll-fade-in">
+                               
+                                <% results3.forEach(function(r) { %>
+                                
+                                    <% if (r.active == 1) { %>
+                                    
+                                     <!-- Gallery Image 1 -->
+								    <article>
+                                        <!-- Thumbnail Image -->
+                                        <a href="../../public/images/gallery/fulls/<%= r.thumbimage %>" class="image">
+    
+                                            <!-- End Linked Image -->
+                                            <img src="../../public/images/gallery/thumbs/<%= r.mainimage %>" alt="" />
+                                            <!-- End Linked Image -->
+    
+                                        </a>
+                                        <!-- End Thumbnail Image -->
+    
+                                        <!-- Thumbnail Caption -->
+                                        <div class="caption">
+                                            <h3>
+                                                <!-- Heading -->
+                                                <%= r.title %>
+                                                <!-- End Heading -->
+                                            </h3>
+                                            
+                                            <p>
+                                                <!-- Subheading -->
+                                                <%= r.subtitle %>
+                                                <!-- End Subheading -->
+                                            </p>
+    
+                                            <ul class="actions fixed">
+                                                <li><span class="button small">Details</span></li>
+                                            </ul>
+                                        </div>
+                                        <!-- Thumbnail Caption -->
+                                    </article>
+                                    
+                                    <% }; %>
+                                   
+                                    
+
+                                <% }); %>
+								
+								<!-- End Gallery Image 1 -->
+
+							
+
+							</div>
+						<!-- End Slideshow Gallery -->
+
+					</section>
+				<!-- ************** End Section Five ************** -->
+			
+
+				<!-- ************** Section Six - Contact Us ************** -->
+					<section class="wrapper style1 align-center">
+						<div class="inner medium">
+							<h2>Get in touch</h2>
+							<form method="post" action="/">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" value="" placeholder="Your Name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" value="" placeholder="Email Address" />
+									</div>
+									<div class="field">
+										<label for="subject">Subject</label>
+										<input type="text"  name="subject" id="subject" value="" placeholder="Subject Line" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6" placeholder="Message..."></textarea>
+									</div>
+								</div>
+								<ul class="actions special">
+									<li><input class="primary" type="submit" name="submit" id="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+
+						</div>
+					</section>
+				<!-- ************** End Section Six - Contact Us ************** -->
+
+				<!-- ************** Footer ************** -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; First Capitol Restoration LLC</a>.</p>
+						</div>
+					</footer>
+				<!-- ************** End Footer ************** -->
+
+			</div> 
+
+		<!-- Scripts -->
+			<script src="../../public/assets/js/jquery.min.js"></script>
+			<script src="../../public/assets/js/jquery.scrollex.min.js"></script>
+			<script src="../../public/assets/js/jquery.scrolly.min.js"></script>
+			<script src="../../public/assets/js/browser.min.js"></script>
+			<script src="../../public/assets/js/breakpoints.min.js"></script>
+			<script src="../../public/assets/js/util.js"></script>
+			<script src="../../public/assets/js/main.js"></script>
+
+		
+
+	<% if (success == "success") { %>
+		<script>alert('Your message was sent successfully');</script>			
+	<% } %>
+
+	<% if (success == "error") { %>
+		<script>alert("Something went wrong, please try again!");</script>			
+	<% } %>
+			
+	</body>
+</html>
