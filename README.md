@@ -29,7 +29,7 @@ There is a separate admin page that the client can log into and edit the webpage
           <li>SCSS</li>
         </ul>
       </td>
-      <td>
+      <td align="top">
         <ul>
           <li>**Used technologies:**</li>
           <li>PHP</li>
