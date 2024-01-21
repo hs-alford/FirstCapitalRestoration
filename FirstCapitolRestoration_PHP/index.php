@@ -20,7 +20,7 @@ $result3 = mysqli_fetch_array($res3);
 
 // Code to send emails //
 $errors = '';
-$myemail = 'fcr@firstcapitalrestoration.com';
+$myemail = '';
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']))
@@ -43,7 +43,7 @@ if( empty($errors))
 
 {
 
-$to = 'bach.restore@gmail.com';
+$to = '';
 
 $email_subject = "Contact form submission: $name";
 
