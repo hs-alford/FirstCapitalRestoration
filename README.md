@@ -7,30 +7,43 @@ There is a separate admin page that the client can log into and edit the webpage
 
 ## Project Versions:
 
-|   |  |
-| ---------------------------- | ---------------------------- |
-|  **Express** | **Used technologies:** 
-                 *one 
-                 * tow
-                 * three
-                 * foure
-                                            
-                                            
-|  **PHP** | **Used technologies:** 
-                 *one 
-                 * tow
-                 * three
-                 * foure
-                                            
-                                            
-                                            |
-
-  
-
-
-
-
-
-**First Capitol Restoration - Express**
+<table>
+  <tbody>
+    <tr>
+      <th>**Express**</th>
+      <th>**PHP**</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li> **Used technologies:** </li>
+          <li>Express</li>
+          <li>Express Validator</li>
+          <li>Node.js</li>
+          <li>EJS</li>
+          <li>MySQL</li>
+          <li>Javascript</li>
+          <li>Mongoose</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SCSS</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>**Used technologies:**</li>
+          <li>PHP</li>
+          <li>Javascript</li>
+          <li>MySQLi</li>
+          <li>MySQL</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SCSS</li>
+        </ul>
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
 
 
