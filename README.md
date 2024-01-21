@@ -10,7 +10,7 @@ There is a separate admin page that the client can log into and edit the webpage
 | **Express**  | **PHP** |
 | ---------------------------- | ---------------------------- |
 | **Used technologies:** | **Used technologies:**  |
-* Express
+| * Express
 * Express Validator
 * Node.js
 * EJS
