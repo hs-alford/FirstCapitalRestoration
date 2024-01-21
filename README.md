@@ -16,14 +16,12 @@ There is a separate admin page that the client can log into and edit the webpage
     <tr>
       <td>
         <ul>
-          <li> **Used technologies:** </li>
+          <li>**Used technologies:**</li>
           <li>Express</li>
-          <li>Express Validator</li>
           <li>Node.js</li>
           <li>EJS</li>
           <li>MySQL</li>
           <li>Javascript</li>
-          <li>Mongoose</li>
           <li>HTML</li>
           <li>CSS</li>
           <li>SCSS</li>
