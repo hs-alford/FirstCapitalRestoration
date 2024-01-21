@@ -7,15 +7,15 @@ There is a separate admin page that the client can log into and edit the webpage
 
 ## Project Versions:
 
+**Used technologies:**
 <table>
   <tbody>
     <tr>
-      <th>**Express**</th>
-      <th>**PHP**</th>
+      <th>Express</th>
+      <th>PHP</th>
     </tr>
     <tr>
       <td>
-        **Used technologies:**
         <ul>
           <li>Express</li>
           <li>Node.js</li>
@@ -28,7 +28,6 @@ There is a separate admin page that the client can log into and edit the webpage
         </ul>
       </td>
       <td>
-       **Used technologies:**
         <ul>
           <li>PHP</li>
           <li>Javascript</li>
