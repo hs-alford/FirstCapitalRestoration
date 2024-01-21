@@ -15,8 +15,8 @@ There is a separate admin page that the client can log into and edit the webpage
     </tr>
     <tr>
       <td>
+        **Used technologies:**
         <ul>
-          <li>**Used technologies:**</li>
           <li>Express</li>
           <li>Node.js</li>
           <li>EJS</li>
@@ -27,9 +27,9 @@ There is a separate admin page that the client can log into and edit the webpage
           <li>SCSS</li>
         </ul>
       </td>
-      <td align="top">
+      <td>
+       **Used technologies:**
         <ul>
-          <li>**Used technologies:**</li>
           <li>PHP</li>
           <li>Javascript</li>
           <li>MySQLi</li>
